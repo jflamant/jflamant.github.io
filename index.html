@@ -225,6 +225,8 @@ Powered by Hydejack v7.5.0 <https://qwtel.com/hydejack/>
 
 
   <h1 id="news">News</h1>
+<p><code class="highlighter-rouge">Jan. 2021</code> New <a href="https://arxiv.org/abs/2102.02763">preprint</a> submitted on constrained convex quaternion optimization.</p>
+
 <p><code class="highlighter-rouge">Nov. 2020</code>  Ph.D position <a href="index.html#job-offers">available</a>, starting Fall 2021.</p>
 
 <p><code class="highlighter-rouge">Feb. 2020</code> Our paper on <a href="https://doi.org/10.1109/TSP.2020.2974651">QNMF</a> has been accepted for publication IEEE Transactions on Signal Processing.</p>
@@ -236,6 +238,60 @@ Powered by Hydejack v7.5.0 <https://qwtel.com/hydejack/>
 <p><code class="highlighter-rouge">May 2019</code> Two papers accepted at <a href="http://gretsi.fr/colloque2019/">GRETSI</a>, Lille, Aug. 2019.</p>
 
 <h1 id="publications">Publications</h1>
+<h2 class="bibliography">Preprints</h2>
+<ol class="bibliography"><li><span id="flamant2021general">J. Flamant, S. Miron, and D. Brie, “A general framework for constrained convex quaternion optimization,” <i>submitted to IEEE Transactions on Signal Processing</i>. 2021.</span>
+<span>
+  <ul class="bib" style="margin-left: 0px">
+    
+    <li><a data-target="#flamant2021general_abstract" data-toggle="collapse" href="#flamant2021general" onclick="return false">abstract</a></li>
+    
+    <li><a data-target="#flamant2021general_bibtex" data-toggle="collapse" href="#flamant2021general" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'flamant2021general']); return false;">bib</a></li>
+    
+    
+    
+    <li><a href="https://arxiv.org/abs/2102.02763">arxiv</a></li>
+    
+    
+  </ul>
+
+  
+  <p id="flamant2021general_abstract" class="abs collapse">This paper introduces a general framework for solving constrained convex quaternion optimization problems in the quaternion domain. To soundly derive these new results, the proposed approach leverages the recently developed generalized HR-calculus together with the equivalence between the original quaternion optimization problem and its augmented real-domain counterpart. This new framework simultaneously provides rigorous theoretical foundations as well as elegant, compact quaternion-domain formulations for optimization problems in quaternion variables. Our contributions are threefold: (i) we introduce the general form for convex constrained optimization problems in quaternion variables, (ii) we extend fundamental notions of convex optimization to the quaternion case, namely Lagrangian duality and optimality conditions, (iii) we develop the quaternion alternating direction method of multipliers (Q-ADMM) as a general purpose quaternion optimization algorithm. The relevance of the proposed methodology is demonstrated by solving two typical examples of constrained convex quaternion optimization problems arising in signal processing. Our results open new avenues in the design, analysis and efficient implementation of quaternion-domain optimization procedures.</p>
+  
+  <pre id="flamant2021general_bibtex" class="prebib collapse">@preprint{flamant2021general,
+  title = {A general framework for constrained convex quaternion optimization},
+  author = {Flamant, Julien and Miron, Sebastian and Brie, David},
+  journal = {submitted to IEEE Transactions on Signal Processing},
+  year = {2021},
+  arxiv = {https://arxiv.org/abs/2102.02763}
+}
+</pre>
+</span>
+
+
+<!-- <span class="sidebar-social">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#flamant2021general_abstract" data-toggle="collapse" href="#flamant2021general" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#flamant2021general_bibtex" data-toggle="collapse" href="#flamant2021general" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'flamant2021general']); return false;">Bib</a></li>
+
+
+    
+    
+    
+    <li><a class="bib-materials" href="https://arxiv.org/abs/2102.02763">ArXiv</a></li>
+    
+    
+  </ul>
+
+
+
+
+  
+
+</span> -->
+</li></ol>
 <h2 class="bibliography">Journal Articles</h2>
 <ol class="bibliography"><li><span id="flamant2020quaternion">J. Flamant, S. Miron, and D. Brie, “Quaternion Non-negative Matrix Factorization: definition, uniqueness and algorithm,” <i>IEEE Transactions on Signal Processing, In press</i>, 2020.</span>
 <span>
@@ -367,70 +423,6 @@ Powered by Hydejack v7.5.0 <https://qwtel.com/hydejack/>
 
 </span> -->
 </li>
-<li><span id="bardenet2018zeros">R. Bardenet, J. Flamant, and P. Chainais, “On the zeros of the spectrogram of white noise,” <i>manuscript accepted for publication in Applied and Computational Harmonic Analysis</i>, 2018.</span>
-<span>
-  <ul class="bib" style="margin-left: 0px">
-    
-    <li><a data-target="#bardenet2018zeros_abstract" data-toggle="collapse" href="#bardenet2018zeros" onclick="return false">abstract</a></li>
-    
-    <li><a data-target="#bardenet2018zeros_bibtex" data-toggle="collapse" href="#bardenet2018zeros" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'bardenet2018zeros']); return false;">bib</a></li>
-    
-    
-    <li><a href="https://github.com/jflamant/2018-zeros-spectrogram-white-noise">code</a></li>
-    
-    
-    <li><a href="https://arxiv.org/abs/1708.00082">arxiv</a></li>
-    
-    
-    <li><a href="10.1016/j.acha.2018.09.002">doi</a></li>
-    
-  </ul>
-
-  
-  <p id="bardenet2018zeros_abstract" class="abs collapse">In a recent paper, Flandrin [2015] has proposed filtering based on the zeros of a spectrogram, using the short-time Fourier transform and a Gaussian window. His results are based on empirical observations on the distribution of the zeros of the spectrogram of white Gaussian noise. These zeros tend to be uniformly spread over the time-frequency plane, and not to clutter. Our contributions are threefold: we rigorously define the zeros of the spectrogram of continuous white Gaussian noise, we explicitly characterize their statistical distribution, and we investigate the computational and statistical underpinnings of the practical implementation of signal detection based on the statistics of spectrogram zeros. In particular, we stress that the zeros of spectrograms of white Gaussian noise correspond to zeros of Gaussian analytic functions, a topic of recent independent mathematical interest [Hough et al., 2009].</p>
-  
-  <pre id="bardenet2018zeros_bibtex" class="prebib collapse">@article{bardenet2018zeros,
-  author = {Bardenet, Rémi and Flamant, Julien and Chainais, Pierre},
-  title = {On the zeros of the spectrogram of white noise},
-  year = {2018},
-  journal = {manuscript accepted for publication in Applied and Computational Harmonic Analysis},
-  eprint = {arXiv:1708.00082},
-  arxiv = {https://arxiv.org/abs/1708.00082},
-  code = {https://github.com/jflamant/2018-zeros-spectrogram-white-noise},
-  doi = {10.1016/j.acha.2018.09.002}
-}
-</pre>
-</span>
-
-
-<!-- <span class="sidebar-social">
-  <ul class="nav nav-pills">
-    
-    <li><a class="bib-materials" data-target="#bardenet2018zeros_abstract" data-toggle="collapse" href="#bardenet2018zeros" onclick="return false">Abstract</a></li>
-    
-
-    <li><a class="bib-materials" data-target="#bardenet2018zeros_bibtex" data-toggle="collapse" href="#bardenet2018zeros" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'bardenet2018zeros']); return false;">Bib</a></li>
-
-
-    
-    
-    <li><a class="bib-materials" href="https://github.com/jflamant/2018-zeros-spectrogram-white-noise">Code</a></li>
-    
-    
-    <li><a class="bib-materials" href="https://arxiv.org/abs/1708.00082">ArXiv</a></li>
-    
-    
-    <li><a class="bib-materials" href="10.1016/j.acha.2018.09.002">DOI</a></li>
-    
-  </ul>
-
-
-
-
-  
-
-</span> -->
-</li>
 <li><span id="flamant2018LTI">J. Flamant, P. Chainais, and N. Le Bihan, “A Complete Framework for Linear Filtering of Bivariate Signals,” <i>IEEE Transactions on Signal Processing</i>, vol. 66, no. 17, pp. 4541–4552, Sep. 2018.</span>
 <span>
   <ul class="bib" style="margin-left: 0px">
@@ -490,6 +482,70 @@ Powered by Hydejack v7.5.0 <https://qwtel.com/hydejack/>
     
     
     <li><a class="bib-materials" href="http://dx.doi.org/10.1109/TSP.2018.2855659">DOI</a></li>
+    
+  </ul>
+
+
+
+
+  
+
+</span> -->
+</li>
+<li><span id="bardenet2018zeros">R. Bardenet, J. Flamant, and P. Chainais, “On the zeros of the spectrogram of white noise,” <i>manuscript accepted for publication in Applied and Computational Harmonic Analysis</i>, 2018.</span>
+<span>
+  <ul class="bib" style="margin-left: 0px">
+    
+    <li><a data-target="#bardenet2018zeros_abstract" data-toggle="collapse" href="#bardenet2018zeros" onclick="return false">abstract</a></li>
+    
+    <li><a data-target="#bardenet2018zeros_bibtex" data-toggle="collapse" href="#bardenet2018zeros" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'bardenet2018zeros']); return false;">bib</a></li>
+    
+    
+    <li><a href="https://github.com/jflamant/2018-zeros-spectrogram-white-noise">code</a></li>
+    
+    
+    <li><a href="https://arxiv.org/abs/1708.00082">arxiv</a></li>
+    
+    
+    <li><a href="10.1016/j.acha.2018.09.002">doi</a></li>
+    
+  </ul>
+
+  
+  <p id="bardenet2018zeros_abstract" class="abs collapse">In a recent paper, Flandrin [2015] has proposed filtering based on the zeros of a spectrogram, using the short-time Fourier transform and a Gaussian window. His results are based on empirical observations on the distribution of the zeros of the spectrogram of white Gaussian noise. These zeros tend to be uniformly spread over the time-frequency plane, and not to clutter. Our contributions are threefold: we rigorously define the zeros of the spectrogram of continuous white Gaussian noise, we explicitly characterize their statistical distribution, and we investigate the computational and statistical underpinnings of the practical implementation of signal detection based on the statistics of spectrogram zeros. In particular, we stress that the zeros of spectrograms of white Gaussian noise correspond to zeros of Gaussian analytic functions, a topic of recent independent mathematical interest [Hough et al., 2009].</p>
+  
+  <pre id="bardenet2018zeros_bibtex" class="prebib collapse">@article{bardenet2018zeros,
+  author = {Bardenet, Rémi and Flamant, Julien and Chainais, Pierre},
+  title = {On the zeros of the spectrogram of white noise},
+  year = {2018},
+  journal = {manuscript accepted for publication in Applied and Computational Harmonic Analysis},
+  eprint = {arXiv:1708.00082},
+  arxiv = {https://arxiv.org/abs/1708.00082},
+  code = {https://github.com/jflamant/2018-zeros-spectrogram-white-noise},
+  doi = {10.1016/j.acha.2018.09.002}
+}
+</pre>
+</span>
+
+
+<!-- <span class="sidebar-social">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#bardenet2018zeros_abstract" data-toggle="collapse" href="#bardenet2018zeros" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#bardenet2018zeros_bibtex" data-toggle="collapse" href="#bardenet2018zeros" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'bardenet2018zeros']); return false;">Bib</a></li>
+
+
+    
+    
+    <li><a class="bib-materials" href="https://github.com/jflamant/2018-zeros-spectrogram-white-noise">Code</a></li>
+    
+    
+    <li><a class="bib-materials" href="https://arxiv.org/abs/1708.00082">ArXiv</a></li>
+    
+    
+    <li><a class="bib-materials" href="10.1016/j.acha.2018.09.002">DOI</a></li>
     
   </ul>
 
@@ -704,7 +760,63 @@ Powered by Hydejack v7.5.0 <https://qwtel.com/hydejack/>
 </span> -->
 </li></ol>
 <h2 class="bibliography">Conference Articles</h2>
-<ol class="bibliography"><li><span id="bardenet2019correspondence">R. Bardenet, P. Chainais, J. Flamant, and A. Hardy, “A correspondence between zeros of time-frequency transforms and Gaussian analytic functions,” in <i>SampTA 2019 - 13th International conference on sampling theory and applications</i>, Bordeaux, France, 2019.</span>
+<ol class="bibliography"><li><span id="flamant2019novel">J. Flamant, S. Miron, and D. Brie, “Quaternion Non-negative Matrix Factorization: a new tool for spectropolarimetric imaging,” in <i>2019 IEEE 8th International Workshop on Computational Advances in Multi-Sensor Adaptive Processing (CAMSAP)</i>, 2019, pp. 336–340.</span>
+<span>
+  <ul class="bib" style="margin-left: 0px">
+    
+    <li><a data-target="#flamant2019novel_abstract" data-toggle="collapse" href="#flamant2019novel" onclick="return false">abstract</a></li>
+    
+    <li><a data-target="#flamant2019novel_bibtex" data-toggle="collapse" href="#flamant2019novel" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'flamant2019novel']); return false;">bib</a></li>
+    
+    
+    
+    
+    <li><a href="https://doi.org/10.1109/CAMSAP45676.2019.9022487">doi</a></li>
+    
+  </ul>
+
+  
+  <p id="flamant2019novel_abstract" class="abs collapse">Quaternion non-negative matrix factorization (QNMF) is a new tool which generalizes usual non-negative matrix factorization (NMF) to the case of polarized signals. The approach relies on two key features: (i) the algebraic representation of polarization information, namely Stokes parameters, thanks to quaternions and (ii) the exploitation of physical constraints linked to polarization generalizing non-negativity constraints. QNMF improves NMF model identifiability by revealing the key disambiguating role played by polarization information. A simple and numerically efficient algorithm is introduced for practical resolution of the QNMF problem. Numerical experiments on synthetic data validate the proposed approach and illustrate the potential of QNMF as a generic spectropolarimetric image unmixing tool.</p>
+  
+  <pre id="flamant2019novel_bibtex" class="prebib collapse">@inproceedings{flamant2019novel,
+  author = {{Flamant}, J. and {Miron}, S. and {Brie}, D.},
+  booktitle = {2019 IEEE 8th International Workshop on Computational Advances in Multi-Sensor Adaptive Processing (CAMSAP)},
+  title = {Quaternion Non-negative Matrix Factorization: a new tool for spectropolarimetric imaging},
+  year = {2019},
+  pages = {336-340},
+  doi = {https://doi.org/10.1109/CAMSAP45676.2019.9022487},
+  issn = {},
+  month = dec
+}
+</pre>
+</span>
+
+
+<!-- <span class="sidebar-social">
+  <ul class="nav nav-pills">
+    
+    <li><a class="bib-materials" data-target="#flamant2019novel_abstract" data-toggle="collapse" href="#flamant2019novel" onclick="return false">Abstract</a></li>
+    
+
+    <li><a class="bib-materials" data-target="#flamant2019novel_bibtex" data-toggle="collapse" href="#flamant2019novel" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'flamant2019novel']); return false;">Bib</a></li>
+
+
+    
+    
+    
+    
+    <li><a class="bib-materials" href="https://doi.org/10.1109/CAMSAP45676.2019.9022487">DOI</a></li>
+    
+  </ul>
+
+
+
+
+  
+
+</span> -->
+</li>
+<li><span id="bardenet2019correspondence">R. Bardenet, P. Chainais, J. Flamant, and A. Hardy, “A correspondence between zeros of time-frequency transforms and Gaussian analytic functions,” in <i>SampTA 2019 - 13th International conference on sampling theory and applications</i>, Bordeaux, France, 2019.</span>
 <span>
   <ul class="bib" style="margin-left: 0px">
     
@@ -754,62 +866,6 @@ Powered by Hydejack v7.5.0 <https://qwtel.com/hydejack/>
     
     
     <li><a class="bib-materials" href="https://hal.archives-ouvertes.fr/hal-02091672">DOI</a></li>
-    
-  </ul>
-
-
-
-
-  
-
-</span> -->
-</li>
-<li><span id="flamant2019novel">J. Flamant, S. Miron, and D. Brie, “Quaternion Non-negative Matrix Factorization: a new tool for spectropolarimetric imaging,” in <i>2019 IEEE 8th International Workshop on Computational Advances in Multi-Sensor Adaptive Processing (CAMSAP)</i>, 2019, pp. 336–340.</span>
-<span>
-  <ul class="bib" style="margin-left: 0px">
-    
-    <li><a data-target="#flamant2019novel_abstract" data-toggle="collapse" href="#flamant2019novel" onclick="return false">abstract</a></li>
-    
-    <li><a data-target="#flamant2019novel_bibtex" data-toggle="collapse" href="#flamant2019novel" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'flamant2019novel']); return false;">bib</a></li>
-    
-    
-    
-    
-    <li><a href="https://doi.org/10.1109/CAMSAP45676.2019.9022487">doi</a></li>
-    
-  </ul>
-
-  
-  <p id="flamant2019novel_abstract" class="abs collapse">Quaternion non-negative matrix factorization (QNMF) is a new tool which generalizes usual non-negative matrix factorization (NMF) to the case of polarized signals. The approach relies on two key features: (i) the algebraic representation of polarization information, namely Stokes parameters, thanks to quaternions and (ii) the exploitation of physical constraints linked to polarization generalizing non-negativity constraints. QNMF improves NMF model identifiability by revealing the key disambiguating role played by polarization information. A simple and numerically efficient algorithm is introduced for practical resolution of the QNMF problem. Numerical experiments on synthetic data validate the proposed approach and illustrate the potential of QNMF as a generic spectropolarimetric image unmixing tool.</p>
-  
-  <pre id="flamant2019novel_bibtex" class="prebib collapse">@inproceedings{flamant2019novel,
-  author = {{Flamant}, J. and {Miron}, S. and {Brie}, D.},
-  booktitle = {2019 IEEE 8th International Workshop on Computational Advances in Multi-Sensor Adaptive Processing (CAMSAP)},
-  title = {Quaternion Non-negative Matrix Factorization: a new tool for spectropolarimetric imaging},
-  year = {2019},
-  pages = {336-340},
-  doi = {https://doi.org/10.1109/CAMSAP45676.2019.9022487},
-  issn = {},
-  month = dec
-}
-</pre>
-</span>
-
-
-<!-- <span class="sidebar-social">
-  <ul class="nav nav-pills">
-    
-    <li><a class="bib-materials" data-target="#flamant2019novel_abstract" data-toggle="collapse" href="#flamant2019novel" onclick="return false">Abstract</a></li>
-    
-
-    <li><a class="bib-materials" data-target="#flamant2019novel_bibtex" data-toggle="collapse" href="#flamant2019novel" onclick="_gaq.push(['_trackEvent', 'View', 'Bibliography', 'flamant2019novel']); return false;">Bib</a></li>
-
-
-    
-    
-    
-    
-    <li><a class="bib-materials" href="https://doi.org/10.1109/CAMSAP45676.2019.9022487">DOI</a></li>
     
   </ul>
 
