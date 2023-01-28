@@ -2,33 +2,30 @@
   - firstname: ["Sebastian", "S.","S"]
     url: http://w3.cran.univ-lorraine.fr/perso/sebastian.miron/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Le Bihan":
+  - firstname: ["Nicolas", "N.", "N"]
+    url: https://nicolas-le-bihan.github.io
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Bonnel":
+  - firstname: ["Julien", "J.", "J"]
+    url: https://www2.whoi.edu/staff/jbonnel/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Chainais": 
+  - firstname: ["Pierre", "P", "P."]
+    url: http://pierrechainais.ec-lille.fr
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Usevich":
+  - firstname: ["Konstantin", "K.", "K"]
+    url: http://w3.cran.univ-lorraine.fr/konstantin.usevich/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Clausel":
+  - firstname: ["Marianne", "M", "M."]
+    url: https://sites.google.com/site/marianneclausel/
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Chassande-Mottin":
+  - firstname: ["Eric", "E.", "E"]
+    url: https://apc.u-paris.fr/~ecm/index.html
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Bardenet":
+  - firstname: ["Rémi", "R.", "R"]
+    url: https://rbardenet.github.io
