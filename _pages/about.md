@@ -30,4 +30,4 @@ I develop **signal processing theory and methods** to leverage **polarization** 
 <br/>
 My research interests include bivariate signal processing, polarimetric imaging, quaternion-valued signal processing, with applications to underwater acoustics and gravitational waves in astrophysics. 
 
-<br/> Wanna join our group? We have currently a 12-month postdoctoral researcher position available on [Geometric Bayesian inference for bivariate signals](/assets/jobs/2023postDocRicochetCRAN.pdf), starting anytime in 2023. See also this [master internship](/assets/jobs/2023_internshipMaster) position.
+<br/> Wanna join our group? We have currently a 12-month postdoctoral researcher position available on [Geometric Bayesian inference for bivariate signals](/assets/jobs/2023postDocRicochetCRAN.pdf), starting anytime in 2023. See also this [master internship](/assets/jobs/2023_internshipMaster.pdf) position.
