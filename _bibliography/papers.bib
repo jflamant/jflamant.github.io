@@ -3,17 +3,30 @@
 All References
 ==========
 @preprint{flamant2022polarimetric,
-  title = {{Polarimetric phase retrieval: uniqueness and algorithms}},
+  title = {{Polarimetric Fourier phase retrieval}},
   author = {Flamant, Julien and Usevich, Konstantin and Clausel, Marianne and Brie, David},
-  url = {https://arxiv.org/abs/2206.12868?context=eess},
-  year = {2022},
-  month = June,
-  abstract={This work introduces a novel Fourier phase retrieval model, called polarimetric phase retrieval that enables a systematic use of polarization information in Fourier phase retrieval problems. We provide a thorough characterization of uniqueness properties of this new model by unraveling equivalencies with a peculiar polynomial factorization problem. We introduce two different but complementary categories of reconstruction methods. The first one is algebraic and relies on the use of approximate greatest common divisor computations using Sylvester matrices. The second one carefully adapts existing algorithms for Fourier phase retrieval, namely semidefinite positive relaxation and Wirtinger-Flow, to solve the polarimetric phase retrieval problem. Finally, a set of numerical experiments permits a thorough assessment of the numerical behavior and relative performances of each proposed reconstruction strategy. We further highlight a reconstruction strategy that combines both approaches for scalable, computationally efficient and asymptotically MSE optimal performance.},
+  year = {2023},
+  month = March,
+  abstract={This work introduces polarimetric Fourier phase retrieval (PPR), a physically-inspired model to leverage polarization of light information in Fourier phase retrieval problems. We provide a complete characterization of its uniqueness properties by unraveling equivalencies with two related problems, namely bivariate phase retrieval and a polynomial autocorrelation factorization problem. In particular, we show that the problem admits a unique solution, which can be formulated as a greatest common divisor (GCD) of measurements polynomials. As a result, we propose algebraic solutions for PPR based on approximate GCD computations using the null-space properties Sylvester matrices. Alternatively, existing iterative algorithms for phase retrieval, semidefinite positive relaxation and Wirtinger-Flow, are carefully adapted to solve the PPR problem. Finally, a set of numerical experiments permits a detailed assessment of the numerical behavior and relative performances of each proposed reconstruction strategy. They further demonstrate the fruitful combination of algebraic and iterative approaches towards a scalable, computationally efficient and robust to noise reconstruction strategy for PPR.},
   hal={hal-03613352},
   bibtex_show={true}, 
   abbr={submitted},
   selected=true,
+  pdf={PPR_hal_preprint.pdf}
 }
+
+@preprint{usevich2023rankone,
+  title = {{Uniqueness of rank-one auto-correlation matrix polynomials factorization}},
+  author = {Usevich, Konstantin and Flamant, Julien and Clausel, Marianne and Brie, David},
+  year = {2023},
+  month = March,
+  abstract={This article characterizes the rank-one factorization of auto-correlation matrix polynomials. We establish a sufficient and necessary uniqueness condition for uniqueness of the factorization based on the greatest common divisor (GCD) of multiple polynomials. In the unique case, we show that the factorization can be carried out explicitly using GCDs. In the non-unique case, the number of non-trivially different factorizations is given and all solutions are enumerated.},
+  hal={hal-04062934},
+  bibtex_show={true}, 
+  abbr={submitted},
+  selected=true,
+}
+
 
 @article{flamant2022optimization,
   abbr = {IEEE TSP},
