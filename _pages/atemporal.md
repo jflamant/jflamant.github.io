@@ -50,8 +50,8 @@ Marc Allain (Institut Fresnel, Aix-Marseille Univ.), David Brie (CRAN, Univ. Lor
 #### **Jobs**
 For any of the positions below, contact me directly by [email](mailto:julien.flamant@cnrs.fr), joining a CV and a brief statement of interest. 
 
-- 6 month master's internship with possible Ph.D. continuation: *tensor methods for polarimetric phase retrieval*
-- 18 month postdoctoral research fellow: *new regularized approximate GCD methods for signal processing*
+- 6 month master's internship with possible Ph.D. continuation
+- [24 month postdoctoral research fellow position](./assets/jobs/postdocOfferAtemporal2024.pdf), with [Konstantin Usevich](http://w3.cran.univ-lorraine.fr/perso/konstantin.usevich/)
 
 #### **Papers associated to the project**
 {% reference flamant2024polarimetric %}
