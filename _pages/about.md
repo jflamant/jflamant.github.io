@@ -28,7 +28,7 @@ I am a CNRS research scientist at [CRAN](http://www.cran.univ-lorraine.fr/) sinc
 <br/>
 I develop **signal processing theory and methods** to leverage **polarization** properties in physics, focusing on interpretable, geometric and algebraic approaches. 
 <br/>
-My research interests include bivariate signal processing, polarimetric imaging, quaternion-valued signal processing, with applications to underwater acoustics and gravitational waves in astrophysics. 
+My research interests include phase retrieval, bivariate signal processing, polarimetric imaging, quaternion-valued signal processing, with applications to physical sciences.  
 
 <br/>
 <br/>
