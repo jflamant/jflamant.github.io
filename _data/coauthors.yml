@@ -10,7 +10,7 @@
   - firstname: ["Julien", "J.", "J"]
     url: https://www2.whoi.edu/staff/jbonnel/
 
-"Chainais": 
+"Chainais":
   - firstname: ["Pierre", "P", "P."]
     url: http://pierrechainais.ec-lille.fr
 
@@ -34,3 +34,6 @@
   - firstname: ["David", "D.", "D"]
     url: https://scholar.google.fr/citations?user=BknnqrgAAAAJ&hl=fr
 
+"Amblard":
+  - firstname: ["P.-O.", "Pierre-Olivier"]
+    url: https://www.gipsa-lab.grenoble-inp.fr/~pierre-olivier.amblard/

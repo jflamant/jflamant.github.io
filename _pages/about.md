@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle:
 
 
 profile:
   align: center
   image: flamant2.jpg
   image_circular: false # crops the image to make it circular
-  address: 
+  address:
     # >
     # <p>Education</p>
     # <p>2018: Ph.D. Centrale Lille 🇫🇷</p>
@@ -23,27 +23,30 @@ social: true  # includes social icons at the bottom of the page
 
 Welcome !
 
-I am a CNRS research scientist at [CRAN](http://www.cran.univ-lorraine.fr/) since 2019. I am a member of the [SiMul research group.](https://cran-simul.github.io), the multidimensional signal processing research group in the [BioSiS](http://www.cran.univ-lorraine.fr/francais/themes_rech/biosis/index.php) department at [CRAN](http://www.cran.univ-lorraine.fr/).
+I am a CNRS research scientist in Nancy, France. Im a member of the [SiMul research group](https://cran-simul.github.io), the multidimensional signal processing research group in the [BioSiS](http://www.cran.univ-lorraine.fr/francais/themes_rech/biosis/index.php) department at [CRAN](http://www.cran.univ-lorraine.fr/).
 <br/>
 <br/>
-I develop **signal processing theory and methods** to leverage **polarization** properties in physics, focusing on interpretable, geometric and algebraic approaches. 
+I develop **signal processing theory and methods** to leverage **polarization** properties in physics, focusing on interpretable, geometric and algebraic approaches.
 <br/>
-My research interests include phase retrieval, bivariate signal processing, polarimetric imaging, quaternion-valued signal processing, with applications to physical sciences.  
+My research interests include phase retrieval, bivariate signal processing, polarimetric imaging, quaternion-valued signal processing, with applications to physical sciences.
 
 <br/>
 <br/>
 
 <!-- <br/> Wanna join our group? We have currently a 12-month postdoctoral researcher position available on [Geometric Bayesian inference for bivariate signals](/assets/jobs/2023postDocRicochetCRAN.pdf), starting anytime in 2023. See also this [master internship](/assets/jobs/2023_internshipMaster.pdf) position. -->
 
+## open positions
+<!-- Multiple positions (master, Ph.D. and postdoc) are opened right now, in relation with the research projects above.
+Interested? contact me directly by [email](mailto:julien.flamant@cnrs.fr), joining a CV and a brief statement of interest.
+ -->
+Several positions are currently open for Spring 25 (*check out instructions in pdfs on how to apply*)
+- 6 months M2 internship in Nancy, [Acoustics and Signal Processing](/assets/jobs/2025_M2_acoustics_CRAN_WHOI.pdf), with [Julien Bonnel](https://www2.whoi.edu/staff/jbonnel/) (WHOI)
+- 6 months M2 internship in Grenoble, [Geometric phase of multivariate signals](/assets/jobs/2025_M2_geometricphase.pdf) with [Nicolas Le Bihan](https://nicolas-le-bihan.github.io/) and [Pierre-Olivier Amblard](https://www.gipsa-lab.grenoble-inp.fr/~pierre-olivier.amblard/).
+
 
 ## ongoing research projects
-**News** I have recently been awarded a ANR Young researcher Grant ATEMPORAL, with funding for a master internship followed by a Ph.D., plus a 18 month postdoc, as well as extensive research support for travel.
-
-- [**ANR JCJC ATEMPORAL, 2024-2027**](/atemporal): Algebraic and Tensor Methods for Polarimetric Phase Retrieval
+<!-- **News** I have recently been awarded a ANR Young researcher Grant ATEMPORAL, with funding for a master internship followed by a Ph.D., plus a 18 month postdoc, as well as extensive research support for travel. -->
+I am currently involved in the following research projects
+- [**ANR JCJC ATEMPORAL, 2024-2027**](/atemporal): Algebraic and Tensor Methods for Polarimetric Phase Retrieval (PI)
 - [**ANR PRC RICOCHET, 2022-2026**](https://ricochet-anr.github.io): Bivariate signal processing:
-a geometric approach to decipher polarization
-
-Multiple positions (master, Ph.D. and postdoc) are opened right now, in relation with the research projects above. 
-Interested? contact me directly by [email](mailto:julien.flamant@cnrs.fr), joining a CV and a brief statement of interest. 
-
-
+a geometric approach to decipher polarization (Leader for CRAN)
