@@ -41,7 +41,7 @@ Interested? contact me directly by [email](mailto:julien.flamant@cnrs.fr), joini
  -->
 Several positions are currently open for Spring 25 (*check out instructions in pdfs on how to apply*)
 - 6 months M2 internship in Nancy, [Acoustics and Signal Processing](/assets/jobs/2025_M2_acoustics_CRAN_WHOI.pdf), with [Julien Bonnel](https://www2.whoi.edu/staff/jbonnel/) (WHOI)
-- 6 months M2 internship in Grenoble, [Geometric phase of multivariate signals](/assets/jobs/2025_M2_geometricphase.pdf) with [Nicolas Le Bihan](https://nicolas-le-bihan.github.io/) and [Pierre-Olivier Amblard](https://www.gipsa-lab.grenoble-inp.fr/~pierre-olivier.amblard/).
+- 6 months M2 internship in Grenoble, [Geometric phase of multivariate signals](/assets/jobs/2025_M2_geometricphase.pdf) with [Nicolas Le Bihan](https://nicolas-le-bihan.github.io/) and [Pierre-Olivier Amblard](https://www.gipsa-lab.grenoble-inp.fr/~pierre-olivier.amblard/). <span style="color:red">[fulfilled] </span>
 
 
 ## ongoing research projects
