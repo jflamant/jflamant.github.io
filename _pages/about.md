@@ -50,3 +50,8 @@ I am currently involved in the following research projects
 - [**ANR JCJC ATEMPORAL, 2024-2027**](/atemporal): Algebraic and Tensor Methods for Polarimetric Phase Retrieval (PI)
 - [**ANR PRC RICOCHET, 2022-2026**](https://ricochet-anr.github.io): Bivariate signal processing:
 a geometric approach to decipher polarization (Leader for CRAN)
+
+## supervision
+Currently, I am supervising
+- [Saulo Cardoso Barreto](https://scholar.google.fr/citations?user=S5pUT9UAAAAJ&hl=fr): Ph.D. student, since Oct. 2022, co-supervised with Sebastian Miron.
+- [Antonio Fazzi](https://fazziant.github.io/): Postdoctoral fellow, since Nov. 2024, co-supervised with Konstantin Usevich.
