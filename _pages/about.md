@@ -52,6 +52,6 @@ I am currently involved in the following research projects
 a geometric approach to decipher polarization (Leader for CRAN)
 
 ## supervision
-Currently, I am supervising
+Currently, I am involved in the supervision of
 - [Saulo Cardoso Barreto](https://scholar.google.fr/citations?user=S5pUT9UAAAAJ&hl=fr): Ph.D. student, since Oct. 2022, co-supervised with Sebastian Miron.
 - [Antonio Fazzi](https://fazziant.github.io/): Postdoctoral fellow, since Nov. 2024, co-supervised with Konstantin Usevich.
