@@ -63,6 +63,34 @@ pages = {9686-9690},
 
 }
 
+@preprint{cardosobarreto2025tensor,
+  title = {{Tensor Block-Block Terms Decomposition for Matrix-Valued Imaging Applications}},
+  author = {Cardoso Barreto, Saulo and Flamant, Julien and Miron, Sebastian and Brie, David},
+  year = {2025},
+  month = May,
+  abstract={Matrix-valued imaging appears in many applications ranging from polarimetric remote sensing to medical imaging. Such images can be represented as 4th-order tensors, where the first two dimensions correspond to spatial variables and the last two encode the matrix feature in each pixel. To efficiently analyze, decompose, and process these images, this paper introduces the block-block terms decomposition (BBTD), a novel low-rank tensor decomposition model that extends bilinear matrix factorization to 4th-order tensors. Low-rank assumptions permit to greatly reduce the number of parameters to be estimated and enable the enforcement of key physical constraints on matrix sources. We establish both a necessary condition and a sufficient condition for uniqueness of the BBTD model. To enable the use of BBTD in covariance matrix-valued imaging, we develop an AO-ADMM framework that allows efficient handling of non-negativity and symmetry constraints on the decomposition factors. This leads to a fast and computationally efficient algorithm. Numerical experiments on synthetic and real data from DTI illustrate the potential of the BBTD model in matrix-valued imaging.},
+  hal={hal-05059862},
+  bibtex_show={true},
+  abbr={submitted},
+  selected=true,
+}
+
+
+@inproceedings{flores2025damped,
+  TITLE = {{Damped ellipse decomposition for bivariate signals}},
+  AUTHOR = {Flores, Philippe and Flamant, Julien and Amblard, Pierre-Olivier and Le Bihan, Nicolas},
+  booktitle = {{2025 IEEE Statistical Signal Processing Workshop}},
+  address = {Edinburgh, United Kingdom},
+  editor = {EURASIP},
+  publisher = {{IEEE}},
+  year = {2025},
+  month = Jun,
+  hal = {hal-05113406},
+  abstract={This paper introduces SONATA: a method that decomposes a polarized bivariate signal into a sum of damped ellipses. To do this, a damped ellipse is seen as a specific quaternion-valued signal for which dynamical parameters (damping and frequency) are separated from the geometrical/polarization parameters which are here considered constant in time. To obtain the parameters of this model, SONATA relies on alternated optimization. While updating the geometrical parameters is done in the quaternion-domain, the update of dynamical parameters is performed via complex structured low-rank approximations. Finally, a gravitational wave data analysis is demonstrated: an example for which the low-rank model of SONATA is adequate.},
+  bibtex_show=true,
+  abbr = {SSP}
+}
+
 
 @article{flamant2024polarimetric,
   title = {{Polarimetric Fourier phase retrieval}},
