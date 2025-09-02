@@ -10,7 +10,9 @@ title={The geometric phase of bivariate signals},
 booktitle={32nd European Signal Processing Conference (EUSIPCO)},
 year={2024},
 hal = {hal-04691994},
-bibtex_show=true
+abstract={This paper provides an introduction to an intriguing geometric phenomenon that can occur when considering narrowband bivariate signals. This so-called geometric phase may appear when the signal normalized second order instantaneous moment follows a smooth curve in the curved projective space. The resulting geometric phase is independent of the signal frequency and magnitude. Well known in quantum mechanics, optics or non-holonomic dynamical systems, the geometric phase can be computed using the concept of Bargmann invariant. It is associated to the time evolution of polarization parameters for bivariate signals. Numerical simulations on signal processing examples illustrate the pecular phenomenon of geometric phase. },
+bibtex_show=true,
+doi ={10.23919/EUSIPCO63174.2024.10715274},
 }
 
 
@@ -60,7 +62,7 @@ bibtex_show={true}
   doi ={10.1109/ICASSP48485.2024.10446019},
   bibtex_show={true},
 pages = {9686-9690},
-
+abstract={This paper introduces a complete approach for the recovery of polarimetric images from experimental intensity measurements. In many applications, such images collect, at each pixel, a Stokes vector encoding the polarization state of light. By representing a Stokes vector image as a third-order tensor, we propose a new physicallyconstrained block-term tensor decomposition called Stokes-BTD. The proposed model is flexible and comes with broad identifiability guarantees. Moreover, physical constraints ensure meaningful interpretation of low-rank terms as Stokes vectors. In practice, Stokes images must be recovered from indirect, intensity measurements. To this aim, we implement two recovery algorithms for Stokes-BTD based on constrained alternated optimization and highlight constraints related to Stokes vectors. Numerical experiments on synthetic and real data illustrate the potential of the approach.},
 }
 
 @preprint{cardosobarreto2025tensor,
@@ -88,9 +90,25 @@ pages = {9686-9690},
   hal = {hal-05113406},
   abstract={This paper introduces SONATA: a method that decomposes a polarized bivariate signal into a sum of damped ellipses. To do this, a damped ellipse is seen as a specific quaternion-valued signal for which dynamical parameters (damping and frequency) are separated from the geometrical/polarization parameters which are here considered constant in time. To obtain the parameters of this model, SONATA relies on alternated optimization. While updating the geometrical parameters is done in the quaternion-domain, the update of dynamical parameters is performed via complex structured low-rank approximations. Finally, a gravitational wave data analysis is demonstrated: an example for which the low-rank model of SONATA is adequate.},
   bibtex_show=true,
-  abbr = {SSP}
+  abbr = {SSP},
+  doi={10.1109/SSP64130.2025.11073316},
 }
 
+@inproceedings{pilavci2025damped,
+  TITLE = {{Time and covariance smoothing for restoration of bivariate signals}},
+  AUTHOR = {Pilavci, Yusuf Yigit and Palud, Pierre and Flamant, Julien and Thouvenin, Pierre-Antoine and Boulanger, J{\'e}r{\'e}mie and Chainais, Pierre},
+  booktitle = {{2025 IEEE Statistical Signal Processing Workshop}},
+  address = {Edinburgh, United Kingdom},
+  editor = {EURASIP},
+  publisher = {{IEEE}},
+  year = {2025},
+  month = Jun,
+  hal = {hal-05125331},
+  abstract={In many applications and physical phenomena, bivariate signals are polarized, i.e. they trace an elliptical trajectory over time when viewed in the 2D planes of their two components. The smooth evolution of this elliptical trajectory, called polarization ellipse, is highly informative to solve ill-posed inverse problems involving bivariate signals where the signal is collected through indirect, noisy or incomplete measurements. This work proposes a novel formulation and an efficient algorithm for reconstructing bivariate signals with polarization regularization. The proposed formulation leverages the compact representation of polarization through the instantaneous covariance matrices. To address the resulting quartic optimization problem, we propose a well-suited parameter splitting strategy which leads to an efficient iterative algorithm (alternating direction method of multipliers (ADMM)) with convex subproblems at each iteration. The performance of the proposed method is illustrated on numerical synthetic data experiments. },
+  bibtex_show=true,
+  abbr = {SSP},
+  doi={10.1109/SSP64130.2025.11073419}
+}
 
 @article{flamant2024polarimetric,
   title = {{Polarimetric Fourier phase retrieval}},
@@ -227,6 +245,7 @@ abstract={This article introduces the notion of quaternion non-negative matrix f
   YEAR = {2023},
   MONTH = {August},
   bibtex_show=true,
+  hal=hal-04194520
 }
 
 @inproceedings{amblard2023gretsi,
@@ -555,12 +574,12 @@ This work focuses on geometrical variations of an existing algorithm, the Expans
   bibtex_show=true,
 }
 
-@preprint{allain2025phasebooksurveyselectedopen,
-      title={Phasebook: A Survey of Selected Open Problems in Phase Retrieval},
+@preprint{allain2025phasebook,
+      title={{Phasebook: A Survey of Selected Open Problems in Phase Retrieval}},
       author={Marc Allain and Selin Aslan and Wim Coene and Sjoerd Dirksen and Jonathan Dong and Julien Flamant and Mark Iwen and Felix Krahmer and Tristan van Leeuwen and Oleh Melnyk and Andreas Menzel and Allard P. Mosk and Viktor Nikitin and Gerlind Plonka and Palina Salanevich and Matthias Wellershoff},
       year={2025},
       arxiv={2505.15351},
       bibtex_show=true,
       abstract = {Phase retrieval is an inverse problem that, on one hand, is crucial in many applications across imaging and physics, and, on the other hand, leads to deep research questions in theoretical signal processing and applied harmonic analysis. This survey paper is an outcome of the recent workshop Phase Retrieval in Mathematics and Applications (PRiMA) (held on August 5--9 2024 at the Lorentz Center in Leiden, The Netherlands) that brought together experts working on theoretical and practical aspects of the phase retrieval problem with the purpose to formulate and explore essential open problems in the field. },
-      abbr = {submitted}
+      abbr = {submitted},
 }
