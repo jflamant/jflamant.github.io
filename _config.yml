@@ -4,11 +4,11 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Julien
-middle_name: 
+middle_name:
 last_name: Flamant
 email: julien.flamant@cnrs.fr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Julien Flamant | CNRS research scientist at CRAN, Nancy, France. 
+  Julien Flamant | CNRS research scientist at CRAN, Nancy, France.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -251,7 +251,7 @@ scholar:
   last_name: [Flamant]
   first_name: [Julien, J.]
 
-  style: apa # or APA, assets/ieee.xml 
+  style: apa # or APA, assets/ieee.xml
 
   locale: en
 
@@ -262,12 +262,12 @@ scholar:
   # preprocessing may conflict with MathJAX if the latter is enabled.
   # See https://github.com/alshedivat/al-folio/issues/357.
   bibtex_filters: [latex, smallcaps, superscript]
-  
-  type_names: { preprint: working papers, article: journal articles, inproceedings: conference papers, thesis: theses}
+
+  type_names: { preprint: working papers, article: journal articles, inproceedings: conference papers, inproceedingsfr: french conference papers, thesis: theses}
   order: descending
   group_by: type
   sort_by: year
-  type_order: [preprint, article, inproceedings, thesis]
+  type_order: [preprint, article, inproceedings, inproceedingsfr, thesis]
   replace_strings: true
   join_strings: true
 

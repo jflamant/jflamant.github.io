@@ -103,7 +103,7 @@
         </div>
 
         <!-- Journal/Book title and date -->
-        {% assign proceedings = "inproceedings,incollection" | split: ','%}
+        {% assign proceedings = "inproceedings,incollection,inproceedingsfr" | split: ','%}
         {% assign thesis = "thesis,mastersthesis,phdthesis" | split: ','%}
         {% if entry.type == "article" -%}
           {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
@@ -136,7 +136,7 @@
           {%- endif %}
           {%- if entry.hal %}
           <a href="https://hal.science/{{ entry.hal }}" class="btn btn-sm z-depth-0" role="button">HAL</a>
-          {%- endif %}  
+          {%- endif %}
           {%- if entry.arxiv %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
           {%- endif %}
