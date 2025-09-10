@@ -4,7 +4,7 @@ title: research
 permalink: /projects/
 description: Current and past research projects in which I am involved as PI or a co-PI.  Still in construction.
 nav: true
-nav_order: 2
+nav_order: 3
 display_categories: [current, past]
 horizontal: false
 ---

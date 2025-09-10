@@ -4,7 +4,7 @@ title: atemporal
 permalink: /atemporal/
 description:
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 ### **ATEMPORAL: Algebraic and Tensor Methods for Polarimetric Phase Retrieval**
 
