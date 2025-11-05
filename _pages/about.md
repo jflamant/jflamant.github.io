@@ -39,9 +39,9 @@ My research interests include phase retrieval, bivariate signal processing, pola
 <!-- Multiple positions (master, Ph.D. and postdoc) are opened right now, in relation with the research projects above.
 Interested? contact me directly by [email](mailto:julien.flamant@cnrs.fr), joining a CV and a brief statement of interest.
  -->
-Several positions are currently open for Spring 25 (*check out instructions in pdfs on how to apply*)
-- 6 months M2 internship in Nancy, [Acoustics and Signal Processing](/assets/jobs/2025_M2_acoustics_CRAN_WHOI.pdf), with [Julien Bonnel](https://www2.whoi.edu/staff/jbonnel/) (WHOI)
-- 6 months M2 internship in Grenoble, [Geometric phase of multivariate signals](/assets/jobs/2025_M2_geometricphase.pdf) with [Nicolas Le Bihan](https://nicolas-le-bihan.github.io/) and [Pierre-Olivier Amblard](https://www.gipsa-lab.grenoble-inp.fr/~pierre-olivier.amblard/). <span style="color:red">[fulfilled] </span>
+Several positions are currently open for Spring 26 (*check out instructions in pdfs on how to apply*)
+- 6 months M2 internship in Nancy, [Acoustics and Signal Processing](/assets/jobs/2026_M2_stage_CRAN_SCRIPPS.pdf), with [Julien Bonnel](https://sioa.ucsd.edu//) (Scripps Institution of Oceanography, UCSD), starting Feb. 2026.
+
 
 
 ## ongoing research projects
