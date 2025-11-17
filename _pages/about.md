@@ -53,5 +53,9 @@ a geometric approach to decipher polarization (Leader for CRAN)
 
 ## supervision
 Currently, I am involved in the supervision of
-- [Saulo Cardoso Barreto](https://scholar.google.fr/citations?user=S5pUT9UAAAAJ&hl=fr): Ph.D. student, since Oct. 2022, co-supervised with Sebastian Miron.
+- [Djahine Bourahla](), Ph.D. student since Nov. 2025, co-supervised with Marc Allain and David Brie.
 - [Antonio Fazzi](https://fazziant.github.io/): Postdoctoral fellow, since Nov. 2024, co-supervised with Konstantin Usevich.
+
+
+*Alumni*
+- [Saulo Cardoso Barreto](https://scholar.google.fr/citations?user=S5pUT9UAAAAJ&hl=fr): Ph.D. student (2022-2025) co-supervised with Sebastian Miron.
