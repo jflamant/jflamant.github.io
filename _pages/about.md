@@ -47,7 +47,7 @@ Several positions are currently open for Spring 26 (*check out instructions in p
 ## ongoing research projects
 <!-- **News** I have recently been awarded a ANR Young researcher Grant ATEMPORAL, with funding for a master internship followed by a Ph.D., plus a 18 month postdoc, as well as extensive research support for travel. -->
 I am currently involved in the following research projects
-- [**ANR JCJC ATEMPORAL, 2024-2027**](/atemporal): Algebraic and Tensor Methods for Polarimetric Phase Retrieval (PI)
+- [**ANR JCJC ATEMPORAL, 2024-2028**](/atemporal): Algebraic and Tensor Methods for Polarimetric Phase Retrieval (PI)
 - [**ANR PRC RICOCHET, 2022-2026**](https://ricochet-anr.github.io): Bivariate signal processing:
 a geometric approach to decipher polarization (Leader for CRAN)
 

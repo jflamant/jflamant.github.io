@@ -263,11 +263,11 @@ scholar:
   # See https://github.com/alshedivat/al-folio/issues/357.
   bibtex_filters: [latex, smallcaps, superscript]
 
-  type_names: { preprint: working papers, article: journal articles, inproceedings: conference papers, inproceedingsfr: french conference papers, thesis: theses}
+  type_names: { preprint: working papers, article: journal articles, inproceedings: conference papers, inproceedingsfr: french conference papers, thesis: theses, techreport: technical reports}
   order: descending
   group_by: type
   sort_by: year
-  type_order: [preprint, article, inproceedings, inproceedingsfr, thesis]
+  type_order: [preprint, article, inproceedings, inproceedingsfr, thesis, techreport]
   replace_strings: true
   join_strings: true
 

@@ -13,7 +13,7 @@ nav_order: 4
   <div style="width: 78%;">
     {% capture markdown_content %}
 **PI:** Julien Flamant <br/>
-**Duration:** 2024 - 2027 <br/>
+**Duration:** 2024 - 2028 <br/>
 **Budget:** 291 k€ <br/>
 **Funding:** ANR JCJC grant number ANR-23-CE48-0007
     {% endcapture %}
@@ -50,8 +50,10 @@ Marc Allain (Institut Fresnel, Aix-Marseille Univ.), David Brie (CRAN, Univ. Lor
 #### **Jobs**
 For any of the positions below, contact me directly by [email](mailto:julien.flamant@cnrs.fr), joining a CV and a brief statement of interest.
 
-- 6 month master's internship with possible Ph.D. continuation
+- [6 month master's internship with possible Ph.D. continuation] <span style="color:green"> [fulfilled] </span>
 - [24 month postdoctoral research fellow position](../assets/jobs/postdocOfferAtemporal2024.pdf), with [Konstantin Usevich](http://w3.cran.univ-lorraine.fr/perso/konstantin.usevich/) <span style="color:green"> [fulfilled] </span>
 
 #### **Papers associated to the project**
 {% reference flamant2024polarimetric %}
+
+{% reference fazzi2025signal %}
